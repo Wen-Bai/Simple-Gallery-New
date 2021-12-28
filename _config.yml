@@ -23,13 +23,15 @@ email: wen.bai@kcl.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
   simple gallery featuring images from wikipedia.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+url: "http://simple-gallery-2.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
   - jekyll-feed
 collections:
-  - exhibits
+  exhibits:
+    output: true
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
